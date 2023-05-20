@@ -62,7 +62,7 @@ select Name, Color, ListPrice
 from Production.Product
 order by ListPrice asc;
 
--- Urunleri fiyata gore kucukten buyuge dogru sıralı getirelim.
+-- Urunleri fiyata gore buyukten küçüğe dogru sıralı getirelim.
 
 select Name, Color, ListPrice
 from Production.Product
